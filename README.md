@@ -13,7 +13,7 @@ Created during Week 10 of the University of Denver web dev bootcamp. The challen
 
 ## Getting Started
 
-- Clone down repo.
+- Clone repo.
 - Run command 'npm install' in Terminal or GitBash
 - Run command 'node liri.js' or one of the commands below.
 
