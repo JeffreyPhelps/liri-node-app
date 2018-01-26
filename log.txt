@@ -6,4 +6,82 @@ User Command: node liri.js movie-this
 
 ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this  
 
-ERROR: Retrieving OMDB entry -- null
+ERROR: Retrieving OMDB entry -- nullUser Command: C:\Program Files\nodejs\node.exe,C:\Users\Jeffr_000\Desktop\School\DU\mod-10-homework-nodejs\liri-node-app\liri.js
+
+LIRI Response:
+
+Usage:
+    node liri.js my-tweets
+    node liri.js spotify-this-song "<song_name>"
+    node liri.js movie-this "<movie_name>"
+    node liri.js do-what-it-says
+
+User Command: node liri.js my-tweets
+
+LIRI Response:
+
+------------------------
+User Tweets:
+------------------------
+
+Created on: Thu Jan 25 03:51:12 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/41Qt4Nc0AR Thanks in part to: @jidefr @schlimmson @mindklab #techjobs #jobs
+------------------------
+Created on: Wed Jan 24 03:52:03 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/etxTWivqMV Thanks in part to: @ng_templates @VishnughVj @hiredbystartups #techjobs #jobs
+------------------------
+Created on: Mon Jan 22 03:51:39 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/V3Y2lC11t7 Thanks in part to: @jsdotgit @JunetDesign @CvStylist #techjobs #javascript
+------------------------
+Created on: Sat Jan 20 03:51:21 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/X1HU2UzNy9 Thanks in part to: @vanessadiwa16 @KhaosCloudERP @VerseOnWine #techjobs #javascript
+------------------------
+Created on: Fri Jan 19 03:51:10 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/FBh2NSVopS Thanks in part to: @JSAtStack @lucagreco @LesKendall #techjobs #jobs
+------------------------
+Created on: Thu Jan 18 03:51:23 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/ZhERAVW7K4 Thanks in part to: @rhelali @tushwijeratne @kekirschner #techjobs #jobs
+------------------------
+Created on: Wed Jan 17 03:51:11 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/SLvyuxM24m Thanks in part to: @RisingStack @McQuaigSolution @northcoders #techjobs #javascript
+------------------------
+Created on: Tue Jan 16 03:51:10 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/JY1WhEVRr6 Thanks in part to: @WFDreamer @TechJobs_LJGA @pourismaiel #techjobs #jobs
+------------------------
+Created on: Fri Jan 12 15:48:12 +0000 2018
+Tweet content: Read Web Dev Daily ▸ today's top stories via @hemsphp @skillgigsonline @truecallerjobs #techjobs #javascript https://t.co/tvsH9aust3
+------------------------
+Created on: Wed Jan 03 21:55:01 +0000 2018
+Tweet content: Read Web Dev Daily ▸Thanks in part to: @bivori @AWEnthous @EDteamLat #javascript #webdesign https://t.co/iJHXq2o64J
+------------------------
+Created on: Mon Jan 01 19:11:22 +0000 2018
+Tweet content: RT @Snowden: People who say "I have nothing to hide" misunderstand the purpose of surveillance. It was never about privacy. It's about powe…
+------------------------
+Created on: Sun Dec 31 03:51:09 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/YTi0nUDz0O #Thanks in part to @bbbqube @designmeant @javebratt #javascript #webdevelopment
+------------------------
+Created on: Sat Dec 30 03:51:08 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/kjBGlGx6GZ #Thanks in part to @mzyy94 @hemsphp @agiratech #javascript #nodejs
+------------------------
+Created on: Fri Dec 29 03:51:08 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/kY27MQoXmV #Thanks in part to @anaxtech @SmartArenaPost @Vision2030Youth #javascript #html5
+------------------------
+Created on: Thu Dec 28 03:51:10 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/oXV8V8ZWdY #Thanks in part to @itslydofficial @iktakahiro @erikakmeyer #javascript #html5
+------------------------
+Created on: Wed Dec 27 03:51:10 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/7tZ8f5zwG2 #Thanks in part to @zeusadsolutions @kaipengyu @tree_css #javascript #webdev
+------------------------
+Created on: Tue Dec 26 03:51:11 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/LF0R65fD54 #Thanks in part to @cirospat @aazni #javascript #nodejs
+------------------------
+Created on: Mon Dec 25 03:51:09 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/XtOrX8vpDr #Thanks in part to @Marc_Schenker @animenowdotcom @jalvarus #javascript #webdev
+------------------------
+Created on: Sun Dec 24 03:51:10 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/Ey5Wa6BTHq #Thanks in part to @DrReinhold @moviesandtvman @pdoggbiker #javascript #html5
+------------------------
+Created on: Sat Dec 23 03:51:10 +0000 2017
+Tweet content: The latest Web Dev Daily! https://t.co/nZztZDmukp #Thanks in part to @Vitolina2 @javebratt @BeingDevApp #javascript #html5
+------------------------
+
