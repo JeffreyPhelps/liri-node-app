@@ -62,7 +62,7 @@ Created during Week 10 of the University of Denver web dev bootcamp. The challen
 
 ## Prerequisites
 ```
-- Node.js - [Download the latest version of Node](https://nodejs.org/en/)
+- Node.js - Download the latest version of Node https://nodejs.org/en/
 ```
 
 ## Built With
