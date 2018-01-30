@@ -12,9 +12,7 @@ exports.twitterKeys = {
     id:'bf94c178a64a4055aeddbbd772e7c4c9',
     secret: '02cbe6ff4aff4b8fa854f06310fb02f9'
     });
-// Spotify API Keys
-//  Client ID bf94c178a64a4055aeddbbd772e7c4c9
-//  Client Secret 02cbe6ff4aff4b8fa854f06310fb02f9
+
 
 // OMDB API Keys
 // Key: b85b05e0

@@ -1,16 +1,3 @@
-User Command: node liri.js spotify-this-song Broken Wings 
-
-LIRI Response:
-
-------------------------
-Song Information:
-------------------------
-
-Song Name: Broken Wings
-Artist: Mr. Mister
-Album: Welcome To The Real World
-Preview Here: https://p.scdn.co/mp3-preview/a5e3b1d4b6fed0b708bcf8d159619652a3eed724?cid=bf94c178a64a4055aeddbbd772e7c4c9
-
 User Command: node liri.js my-tweets
 
 LIRI Response:
@@ -80,19 +67,20 @@ Created on: Fri Jan 12 15:48:12 +0000 2018
 Tweet content: Read Web Dev Daily ▸ today's top stories via @hemsphp @skillgigsonline @truecallerjobs #techjobs #javascript https://t.co/tvsH9aust3
 ------------------------
 
-User Command: node liri.js movie-this 
+User Command: node liri.js spotify-this-song Broken Wings 
 
-ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+LIRI Response:
 
-ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+------------------------
+Song Information:
+------------------------
 
-ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+Song Name: Broken Wings
+Artist: Mr. Mister
+Album: Welcome To The Real World
+Preview Here: https://p.scdn.co/mp3-preview/a5e3b1d4b6fed0b708bcf8d159619652a3eed724?cid=bf94c178a64a4055aeddbbd772e7c4c9
 
-ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
-
-ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
-
-ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+User Command: node liri.js movie-this The Matrix 
 
 LIRI Response:
 
@@ -110,16 +98,6 @@ Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
 Rotten Tomatoes Rating: N/A
 Rotten Tomatoes URL: http://www.rottentomatoes.com/m/matrix/
 
-User Command: C:\Program Files\nodejs\node.exe,C:\Users\JeffreyPhelps\Desktop\liri-node-app\liri.js,node,liri.js,do-what-it-says
-
-LIRI Response:
-
-Usage:
-    node liri.js my-tweets
-    node liri.js spotify-this-song "<song_name>"
-    node liri.js movie-this "<movie_name>"
-    node liri.js do-what-it-says
-
 User Command: node liri.js do-what-it-says
 
 User Command: node liri.js spotify-this-song "I Want it That Way"
@@ -134,32 +112,4 @@ Song Name: The Sign
 Artist: Ace of Base
 Album: The Sign (US Album) [Remastered]
 Preview Here: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=bf94c178a64a4055aeddbbd772e7c4c9
-
-User Command: node liri.js do-what-it-says
-
-User Command: node liri.js spotify-this-song "I Want it That Way"
-
-LIRI Response:
-
-------------------------
-Song Information:
-------------------------
-
-Song Name: The Sign
-Artist: Ace of Base
-Album: The Sign (US Album) [Remastered]
-Preview Here: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=bf94c178a64a4055aeddbbd772e7c4c9
-
-User Command: node liri.js spotify-this-song Lucille 
-
-LIRI Response:
-
-------------------------
-Song Information:
-------------------------
-
-Song Name: Lucille
-Artist: Little Richard
-Album: The Georgia Peach
-Preview Here: null
 
