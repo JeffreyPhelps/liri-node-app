@@ -1,3 +1,5 @@
+// Jeffrey Phelps - DU Web Dev Bootcamp 2017/2018 - Week-10 Homework (Node Liri Bot)
+
 /*
 *	Load Required Node Modules
 */
@@ -13,6 +15,7 @@ var fs = require('fs');
 var keys = require('./keys.js');
 var twitterKeys = keys.twitterKeys;
 const spotify = keys.spotify;
+
 /*
 * 	Read in command line arguments
 */

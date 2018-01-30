@@ -1,3 +1,5 @@
+// Jeffrey Phelps - DU Web Dev Bootcamp 2017/2018 - Week-10 Homework (Node Liri Bot)
+
 const Spotify = require('node-spotify-api');
 
 

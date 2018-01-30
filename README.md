@@ -1,7 +1,7 @@
 # liri-node-app
-Week 10 (LIRI Bot) Assignment
+Jeffrey Phelps - DU Web Dev Bootcamp 2017/2018 - Week-10 Homework - Node Liri Bot Assignment
 
-Created during Week 10 of the University of Denver web dev bootcamp. The challenge was to use Node JS to create a LIRI bot, like iPhone's SIRI, but takes in command through text, instead of Speech. LIRI is a command line node app that takes in parameters and returns data based on one of four commands:
+Created during Week 10 of the University of Denver's web dev bootcamp 2017/2018. The challenge was to use Node JS to create a LIRI bot, like iPhone's SIRI, but takes in command through text, instead of Speech. Liri takes in parameters and returns data based on one of four commands:
 
   * `my-tweets`
 
