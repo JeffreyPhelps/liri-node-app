@@ -1,3 +1,6 @@
+const Spotify = require('node-spotify-api');
+
+
 exports.twitterKeys = {
     consumer_key: 'RuC3iJiXqyPRttQgnzrBUo01S',
     consumer_secret: 'YLY7JcVEJ4fT391CSqpIWJBvaa6O7uluPSAulIZUgRZJSVFFcc',
@@ -5,11 +8,13 @@ exports.twitterKeys = {
     access_token_secret: '4AiDJmX5secjGFjtIR7ZryQwkyTYCHmnAO9TJP1uEDQzg',
   }
 
-
+  exports.spotify = new Spotify({
+    id:'bf94c178a64a4055aeddbbd772e7c4c9',
+    secret: '02cbe6ff4aff4b8fa854f06310fb02f9'
+    });
 // Spotify API Keys
 //  Client ID bf94c178a64a4055aeddbbd772e7c4c9
 //  Client Secret 02cbe6ff4aff4b8fa854f06310fb02f9
-
 
 // OMDB API Keys
 // Key: b85b05e0

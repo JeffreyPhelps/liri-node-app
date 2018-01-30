@@ -1,20 +1,15 @@
-User Command: node liri.js do-what-it-says
-
-User Command: node liri.js spotify-this-song "I Want it That Way"
-
-User Command: node liri.js movie-this 
-
-ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this  
-
-ERROR: Retrieving OMDB entry -- nullUser Command: C:\Program Files\nodejs\node.exe,C:\Users\Jeffr_000\Desktop\School\DU\mod-10-homework-nodejs\liri-node-app\liri.js
+User Command: node liri.js spotify-this-song Broken Wings 
 
 LIRI Response:
 
-Usage:
-    node liri.js my-tweets
-    node liri.js spotify-this-song "<song_name>"
-    node liri.js movie-this "<movie_name>"
-    node liri.js do-what-it-says
+------------------------
+Song Information:
+------------------------
+
+Song Name: Broken Wings
+Artist: Mr. Mister
+Album: Welcome To The Real World
+Preview Here: https://p.scdn.co/mp3-preview/a5e3b1d4b6fed0b708bcf8d159619652a3eed724?cid=bf94c178a64a4055aeddbbd772e7c4c9
 
 User Command: node liri.js my-tweets
 
@@ -24,6 +19,39 @@ LIRI Response:
 User Tweets:
 ------------------------
 
+Created on: Tue Jan 30 03:51:10 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/70JQJl4jcN Thanks in part to: @InstinctVarun @codebashing @M__abalkhil #techjobs #jobs
+------------------------
+Created on: Mon Jan 29 01:58:02 +0000 2018
+Tweet content: @NassomaWilson @jemelehill @TheUndefeated Sounds to me like this is a classic case of the pot calling the kettle...white.
+------------------------
+Created on: Sun Jan 28 19:02:20 +0000 2018
+Tweet content: @therealtanayj @jemelehill I was asking the same thing! All you hear are crickets...
+------------------------
+Created on: Sun Jan 28 18:47:39 +0000 2018
+Tweet content: @NassomaWilson @jemelehill @TheUndefeated Uhhhh, sorry, but, the move isn't "upward"
+------------------------
+Created on: Sun Jan 28 18:43:38 +0000 2018
+Tweet content: @jemelehill So, which is it, then? You're not anti-Trump, or not leaving SportsCenter? Or, is the headline accurate?
+------------------------
+Created on: Sun Jan 28 18:35:40 +0000 2018
+Tweet content: @unclelukereal1 @jemelehill Straight from the father of womanizer rap! LOL
+------------------------
+Created on: Sun Jan 28 18:26:22 +0000 2018
+Tweet content: @jooblee @FoxBusiness @jemelehill @SportsCenter Uhhhh, the headline doesn't say that she's "leaving ESPN." LOL
+------------------------
+Created on: Sun Jan 28 18:23:57 +0000 2018
+Tweet content: @BlackWilHunting @Georgeman33 @jemelehill But, not for Jemele...
+------------------------
+Created on: Sun Jan 28 03:51:10 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/MeMcLhg0XP Thanks in part to: @MashaykhDZ @SiliconBayPartn @Mystery3SR #techjobs #javascript
+------------------------
+Created on: Sat Jan 27 03:51:08 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/i0p9MFFarv Thanks in part to: @ContentSourceGL @TECH_JOBS_DC @dhamothy #techjobs #javascript
+------------------------
+Created on: Fri Jan 26 03:51:10 +0000 2018
+Tweet content: The latest Web Dev Daily! https://t.co/o88TK63Szj Thanks in part to: @migueltrindade @saranyankb @izzydoesizzy #techjobs #hiring
+------------------------
 Created on: Thu Jan 25 03:51:12 +0000 2018
 Tweet content: The latest Web Dev Daily! https://t.co/41Qt4Nc0AR Thanks in part to: @jidefr @schlimmson @mindklab #techjobs #jobs
 ------------------------
@@ -51,37 +79,87 @@ Tweet content: The latest Web Dev Daily! https://t.co/JY1WhEVRr6 Thanks in part 
 Created on: Fri Jan 12 15:48:12 +0000 2018
 Tweet content: Read Web Dev Daily ▸ today's top stories via @hemsphp @skillgigsonline @truecallerjobs #techjobs #javascript https://t.co/tvsH9aust3
 ------------------------
-Created on: Wed Jan 03 21:55:01 +0000 2018
-Tweet content: Read Web Dev Daily ▸Thanks in part to: @bivori @AWEnthous @EDteamLat #javascript #webdesign https://t.co/iJHXq2o64J
+
+User Command: node liri.js movie-this 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
 ------------------------
-Created on: Mon Jan 01 19:11:22 +0000 2018
-Tweet content: RT @Snowden: People who say "I have nothing to hide" misunderstand the purpose of surveillance. It was never about privacy. It's about powe…
+Movie Information:
 ------------------------
-Created on: Sun Dec 31 03:51:09 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/YTi0nUDz0O #Thanks in part to @bbbqube @designmeant @javebratt #javascript #webdevelopment
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Country Produced: USA
+Language: English
+Plot: Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. Morpheus awakens Neo to the real world, a ravaged wasteland where most of humanity have been captured by a race of machines that live off of the humans' body heat and electrochemical energy and who imprison their minds within an artificial reality known as the Matrix. As a rebel against the machines, Neo must return to the Matrix and confront the agents: super-powerful computer programs devoted to snuffing out Neo and the entire human rebellion.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+Rotten Tomatoes Rating: N/A
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/matrix/
+
+User Command: C:\Program Files\nodejs\node.exe,C:\Users\JeffreyPhelps\Desktop\liri-node-app\liri.js,node,liri.js,do-what-it-says
+
+LIRI Response:
+
+Usage:
+    node liri.js my-tweets
+    node liri.js spotify-this-song "<song_name>"
+    node liri.js movie-this "<movie_name>"
+    node liri.js do-what-it-says
+
+User Command: node liri.js do-what-it-says
+
+User Command: node liri.js spotify-this-song "I Want it That Way"
+
+LIRI Response:
+
 ------------------------
-Created on: Sat Dec 30 03:51:08 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/kjBGlGx6GZ #Thanks in part to @mzyy94 @hemsphp @agiratech #javascript #nodejs
+Song Information:
 ------------------------
-Created on: Fri Dec 29 03:51:08 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/kY27MQoXmV #Thanks in part to @anaxtech @SmartArenaPost @Vision2030Youth #javascript #html5
+
+Song Name: The Sign
+Artist: Ace of Base
+Album: The Sign (US Album) [Remastered]
+Preview Here: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=bf94c178a64a4055aeddbbd772e7c4c9
+
+User Command: node liri.js do-what-it-says
+
+User Command: node liri.js spotify-this-song "I Want it That Way"
+
+LIRI Response:
+
 ------------------------
-Created on: Thu Dec 28 03:51:10 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/oXV8V8ZWdY #Thanks in part to @itslydofficial @iktakahiro @erikakmeyer #javascript #html5
+Song Information:
 ------------------------
-Created on: Wed Dec 27 03:51:10 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/7tZ8f5zwG2 #Thanks in part to @zeusadsolutions @kaipengyu @tree_css #javascript #webdev
+
+Song Name: The Sign
+Artist: Ace of Base
+Album: The Sign (US Album) [Remastered]
+Preview Here: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=bf94c178a64a4055aeddbbd772e7c4c9
+
+User Command: node liri.js spotify-this-song Lucille 
+
+LIRI Response:
+
 ------------------------
-Created on: Tue Dec 26 03:51:11 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/LF0R65fD54 #Thanks in part to @cirospat @aazni #javascript #nodejs
+Song Information:
 ------------------------
-Created on: Mon Dec 25 03:51:09 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/XtOrX8vpDr #Thanks in part to @Marc_Schenker @animenowdotcom @jalvarus #javascript #webdev
-------------------------
-Created on: Sun Dec 24 03:51:10 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/Ey5Wa6BTHq #Thanks in part to @DrReinhold @moviesandtvman @pdoggbiker #javascript #html5
-------------------------
-Created on: Sat Dec 23 03:51:10 +0000 2017
-Tweet content: The latest Web Dev Daily! https://t.co/nZztZDmukp #Thanks in part to @Vitolina2 @javebratt @BeingDevApp #javascript #html5
-------------------------
+
+Song Name: Lucille
+Artist: Little Richard
+Album: The Georgia Peach
+Preview Here: null
 

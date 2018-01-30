@@ -3,7 +3,6 @@
 */
 
 var Twitter = require('twitter');
-var spotify = require('spotify');
 var request = require('request');
 var fs = require('fs');
 
@@ -13,22 +12,25 @@ var fs = require('fs');
 
 var keys = require('./keys.js');
 var twitterKeys = keys.twitterKeys;
-
+const spotify = keys.spotify;
 /*
 * 	Read in command line arguments
 */
 
 // Read in the command line arguments
 var cmdArgs = process.argv;
+var test = process.argv[3];
 
 // The LIRI command will always be the second command line argument
 var liriCommand = cmdArgs[2];
 
 // The parameter to the LIRI command may contain spaces
 var liriArg = '';
+
 for (var i = 3; i < cmdArgs.length; i++) {
 	liriArg += cmdArgs[i] + ' ';
 }
+
 
 // retrieveTweets will retrieve my last 20 tweets and display them together with the date
 function retrieveTweets() {
@@ -84,12 +86,12 @@ function spotifySong(song) {
 
 	// If no song is provided, LIRI defaults to 'The Sign' by Ace Of Base
 	var search;
-	if (song === '') {
+	if (test === undefined) {
 		search = 'The Sign Ace Of Base';
 	} else {
 		search = song;
 	}
-
+	console.log(search);
 	spotify.search({ type: 'track', query: search}, function(error, data) {
 	    if (error) {
 			var errorStr1 = 'ERROR: Retrieving Spotify track -- ' + error;
@@ -101,6 +103,7 @@ function spotifySong(song) {
 			});
 			return;
 	    } else {
+			console.log(data);
 			var songInfo = data.tracks.items[0];
 			if (!songInfo) {
 				var errorStr2 = 'ERROR: No song info retrieved, please check the spelling of the song name!';
@@ -148,12 +151,13 @@ function retrieveOBDBInfo(movie) {
 
 	// Replace spaces with '+' for the query string
 	search = search.split(' ').join('+');
-
+	console.log(search);
 	// Construct the query string
-	var queryStr = 'http://www.omdbapi.com/?t=' + search + '&plot=full&tomatoes=true';
+	var queryStr = 'http://www.omdbapi.com/?apikey=b85b05e0&t=' + search + '&plot=full&tomatoes=true';
 
 	// Send the request to OMDB
 	request(queryStr, function (error, response, body) {
+		console.log(body);
 		if ( error || (response.statusCode !== 200) ) {
 			var errorStr1 = 'ERROR: Retrieving OMDB entry -- ' + error;
 
