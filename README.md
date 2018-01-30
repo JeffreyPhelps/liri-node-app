@@ -32,7 +32,7 @@ Created during Week 10 of the University of Denver web dev bootcamp. The challen
     * The album that the song is from
 
   * Or if no song is passed through, it will default to
-    *"Florescent Adolescent" by Arctic Monkeys
+    *"The Sign" by Ace of Base
 
 3. `node liri.js movie-this <movie name>`
 
